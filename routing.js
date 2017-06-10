@@ -12,14 +12,10 @@ var indexRouter = require('./lib/routing/index.js');
     FUNCTION DECLARATION
 */
 function ROUTER(router) {
-    var self = this;
-
-    self.handleRoutes(router);
+    this.handleRoutes(router);
 }
 
 ROUTER.prototype.handleRoutes = function(router) {
-    var self = this;
-
     router.use('/index', indexRouter(router));
 }
 

@@ -1,6 +1,6 @@
 var messages = {};
 
-messages.console = {
+messages = {
     //Success
     appIsLive: "Application is now live",
 
